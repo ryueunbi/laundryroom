@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+/* size */
+  .fz-14{
+    font-size: 0.875em;
+  }
+  
+  .fz-16{
+    font-size: 1em;
+  }
+  
+  .fz-18{
+    font-size: 1.125em;
+  }
+  
+  .fz-20{
+    font-size: 1.250em;
+  }
+  
+  .fz-25{
+    font-size: 1.563em;
+  }
+
+  .fz-30{
+    font-size: 1.875em;
+  }
+  
+  .fz-38{
+    font-size: 2.375em;
+  }
+
+  .fz-35{
+    font-size: 2.188em;
+  }
+
+  .fz-40{
+    font-size: 2.5em;
+  }
+
+  .fz-45{
+    font-size: 2.813em;
+  }
+
+  .fz-50{
+    font-size: 3.125em;
+  }
+
+  .fz-55{
+    font-size: 3.438em;
+  }
+
+  .fz-58{
+    font-size: 3.625em;
+  }
+  
+  .fz-60{
+    font-size: 3.75em;
+  }
+  
+/* color */
+.fc-grey{
+  color: #d7d7d7;
+}
+
+.fc-light-grey{
+  color: #e3e3e3;
+}
+
+.fc-dark-grey{
+  color: #61636b;
+}
+
+.fc-main{
+  color: #2c4d9c;
+}
+
+
+/* line-height */
+.lh-35{
+  line-height: 35px;
+}
+
+.lh-40{
+  line-height: 40px;
+}
