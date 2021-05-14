@@ -117,10 +117,6 @@ m img{
   transition: all 0.3s;
 }
 
-.logo>a>img{
-  width: 45%;
-}
-
 /* =====================================
 section 02 ===========================*/
 
@@ -128,7 +124,7 @@ section 02 ===========================*/
   width: 100%;
   height: 100%;
   /* background-image: url('../images/section02_bg.gif'); */
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 /* 
@@ -629,7 +625,7 @@ h6 {
 /* line 24, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
 p {
   line-height: 30px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-weight: normal;
 }
 
@@ -1088,7 +1084,6 @@ hr {
   -moz-user-select: none;
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 0;
@@ -1175,7 +1170,7 @@ hr {
   height: 50px;
   width: 50px;
   right: 3%;
-  bottom: 22%;
+  bottom: 6%;
   position: fixed;
   font-size: 20px;
   text-align: center;
@@ -3752,15 +3747,14 @@ width =============== */
 
 /* line 67, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
 .header-area .main-header .main-menu ul li ul.submenu > li > a {
-  color: #ffff;
+  color: #fff;
   padding: 6px 10px !important;
-  font-size: 16px;
   margin: 0;
 }
 
 /* line 73, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
 .header-area .main-header .main-menu ul li ul.submenu > li > a:hover {
-  color: #fff;
+  color: #d5d5d5 !important;
   background: none;
 }
 
@@ -4420,7 +4414,7 @@ custom =================== */
   bottom: 17px;
   z-index: 1;
   color: #fff;
-  left: 15px;
+  left: 25px;
   text-shadow: 0.5px 0.5px 1.8px #c7c6ca;
 }
 
@@ -8482,7 +8476,6 @@ pricing(이용안내) page ============ */
 
 .caution{
   border-top: 1px solid #d5d5d5;
-  padding: 50px 40px;
 }
 
 
@@ -8506,7 +8499,7 @@ portpolio(세탁꿀팁) page =========== */
   background-position-y: 160px;
 }
 
-.tip-title h2{
+.tip-title h2, .course-title h2{
   margin-left: 12px;
 }
 
@@ -8518,7 +8511,18 @@ portpolio(세탁꿀팁) page =========== */
   background: #2c4d9c;
   top: 0;
   left: 15px;
-  top: 7.5%;
+  top: 10%;
+}
+
+.course-title h2::before{  
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 15px;
+  background: #2c4d9c;
+  top: 0;
+  left: 15px;
+  top: 3%;
 }
 
 .overlay-content a xi{
@@ -8538,4 +8542,8 @@ custom css ======================== */
 
 .tb-border-top{
   border-top: 2px solid #2c4d9c;
+}
+
+.border-bt{
+  border-bottom: 2px solid #f7f7f7;
 }
