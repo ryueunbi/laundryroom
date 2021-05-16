@@ -2858,26 +2858,6 @@ hr {
 }
 
 
-
-
-/* =====================
-width =============== */
-
-.w-60{
-  width: 60%;
-}
-
-.w-90{
-  width: 90%;
-}
-
-.w-95{
-  width: 95%;
-}
-
-
-
-
 /*-- Some Animated CSS -- */
 /* bounce-animate */
 /* line 637, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
@@ -8546,4 +8526,113 @@ custom css ======================== */
 
 .border-bt{
   border-bottom: 2px solid #f7f7f7;
+}
+
+.join-btn{
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+
+.loginbtn{
+  padding: 57px 50px;
+  margin-top: 37px;
+  margin-left: 20px;
+}
+
+input[type=password]{
+  font-family: 'Notosans' !important;
+}
+
+input::placeholder{
+  font-family: 'NanumSquare', sans-serif;
+}
+
+.sequence-number{
+  width: 40px;
+  height: 40px;
+  background: #ebebeb;
+  border-radius: 100%;
+  margin: 0 10px;
+  line-height: 41px;
+}
+
+.join-sequence>li{
+  border-bottom: 3px solid #ccc;
+  padding: 25px 0;
+  position: relative;
+}
+
+.join-sequence>li:before{
+  font-family: 'xeicon';
+  content: "\e93f";
+  display: block;
+  position: absolute;
+  top: 35%;
+  right: -10px;
+  margin-top: -10px;
+  color: #ccc;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+}
+
+.join-sequence>li:last-child:before{
+  display: none;
+}
+
+.join-sequence>li.active span{
+  color: #2c4d9c;
+}
+
+.join-sequence>li.active{
+  border-color: #2c4d9c;
+}
+
+.personal-info *{
+  /* font-size: 18px; */
+  padding: 20px;
+}
+
+.join-next-btn>button{
+  padding: 15px 70px;
+}
+
+.select .nice-select .current{
+  font-size: 17px;
+}
+
+.add-detail{
+  border-color: #eee !important;
+}
+
+.login-text>input{
+  padding: 22px 180px 22px 15px !important;
+}
+
+/* =====================
+width =============== */
+
+.w-30{
+  width: 30%;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+.w-95{
+  width: 95%;
+}
+
+
+.ml-22{
+  margin-left: 22px;
 }

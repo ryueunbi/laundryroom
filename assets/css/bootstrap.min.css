@@ -258,6 +258,9 @@ input[type=checkbox],
 input[type=radio] {
     box-sizing: border-box;
     padding: 0;
+    /* 추가 */
+    width: 18px;
+    height: 18px;
 }
 input[type=date],
 input[type=datetime-local],
@@ -1705,11 +1708,14 @@ pre code {
     display: block;
     width: 100%;
     height: calc(2.25rem + 2px);
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
+    /* 추가 */
+    padding: 22px 15px;
+    /* 추가 끝 */
+    /* padding: 0.375rem 0.75rem; */
+    /* font-size: 1rem; */
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: rgb(242, 242, 242);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
@@ -1753,7 +1759,7 @@ pre code {
 }
 .form-control:disabled,
 .form-control[readonly] {
-    background-color: #e9ecef;
+    background-color: #eee;
     opacity: 1;
 }
 select.form-control:focus::-ms-value {
@@ -1849,7 +1855,7 @@ textarea.form-control {
 }
 .form-check-input {
     position: absolute;
-    margin-top: 0.3rem;
+    margin-top: 0.4rem;
     margin-left: -1.25rem;
 }
 .form-check-input:disabled~.form-check-label {
@@ -1897,13 +1903,13 @@ textarea.form-control {
 .form-control.is-valid,
 .was-validated .custom-select:valid,
 .was-validated .form-control:valid {
-    border-color: #28a745;
+    border-color: #2c4d9c;
 }
 .custom-select.is-valid:focus,
 .form-control.is-valid:focus,
 .was-validated .custom-select:valid:focus,
 .was-validated .form-control:valid:focus {
-    border-color: #28a745;
+    border-color: #2c4d9c;
     box-shadow: 0 0 0 0.2rem rgba(40,167,69,.25);
 }
 .custom-select.is-valid~.valid-feedback,
@@ -1997,13 +2003,13 @@ textarea.form-control {
 .form-control.is-invalid,
 .was-validated .custom-select:invalid,
 .was-validated .form-control:invalid {
-    border-color: #dc3545;
+    border-color: #eee;
 }
 .custom-select.is-invalid:focus,
 .form-control.is-invalid:focus,
 .was-validated .custom-select:invalid:focus,
 .was-validated .form-control:invalid:focus {
-    border-color: #dc3545;
+    border-color: #eb5a79;
     box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
 }
 .custom-select.is-invalid~.invalid-feedback,
@@ -2024,7 +2030,7 @@ textarea.form-control {
 }
 .form-check-input.is-invalid~.form-check-label,
 .was-validated .form-check-input:invalid~.form-check-label {
-    color: #dc3545;
+    color: #eb5a79;
 }
 .form-check-input.is-invalid~.invalid-feedback,
 .form-check-input.is-invalid~.invalid-tooltip,
@@ -2034,7 +2040,7 @@ textarea.form-control {
 }
 .custom-control-input.is-invalid~.custom-control-label,
 .was-validated .custom-control-input:invalid~.custom-control-label {
-    color: #dc3545;
+    color: #eb5a79;
 }
 .custom-control-input.is-invalid~.custom-control-label::before,
 .was-validated .custom-control-input:invalid~.custom-control-label::before {
@@ -2056,7 +2062,7 @@ textarea.form-control {
 }
 .custom-file-input.is-invalid~.custom-file-label,
 .was-validated .custom-file-input:invalid~.custom-file-label {
-    border-color: #dc3545;
+    border-color: #eb5a79;
 }
 .custom-file-input.is-invalid~.custom-file-label::after,
 .was-validated .custom-file-input:invalid~.custom-file-label::after {
@@ -2185,9 +2191,12 @@ fieldset:disabled a.btn {
     pointer-events: none;
 }
 .btn-primary {
+    /* 추가 */
+    /* width: 100%; */
+    /* 추가 end */
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #2c4d9c;
+    border-color: #2c4d9c;
 }
 .btn-primary:hover {
     color: #fff;
@@ -2201,8 +2210,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #2c4d9c;
+    border-color: #2c4d9c;
 }
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -3292,13 +3301,13 @@ input[type=submit].btn-block {
     border-radius: 0.25rem;
 }
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #007bff;
+    background-color: #2c4d9c;
 }
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
 }
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-    background-color: #007bff;
+    background-color: #2c4d9c;
 }
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E");
@@ -4896,8 +4905,8 @@ button.close {
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 0.3rem;
+    /* border: 1px solid rgba(0,0,0,.2); */
+    /* border-radius: 0.3rem; */
     outline: 0;
 }
 .modal-backdrop {
@@ -4922,7 +4931,8 @@ button.close {
     align-items: flex-start;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding: 20px 25px;
     border-bottom: 1px solid #e9ecef;
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
@@ -4948,7 +4958,8 @@ button.close {
     align-items: center;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding: 15px 30px 0;
     border-top: 1px solid #e9ecef;
 }
 .modal-footer > :not(:first-child) {

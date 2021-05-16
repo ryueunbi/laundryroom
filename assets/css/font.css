@@ -82,6 +82,9 @@
 
 
 /* line-height */
+.lh-25{
+  line-height: 25px;
+}
 .lh-35{
   line-height: 35px;
 }
