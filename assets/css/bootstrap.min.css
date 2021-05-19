@@ -2194,14 +2194,14 @@ fieldset:disabled a.btn {
     /* 추가 */
     /* width: 100%; */
     /* 추가 end */
-    color: #fff;
-    background-color: #2c4d9c;
+    color: #2c4d9c;
+    background-color: #fff;
     border-color: #2c4d9c;
 }
 .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #2c4d9c;
+    border-color: #2c4d9c;
 }
 .btn-primary.focus,
 .btn-primary:focus {
@@ -2386,14 +2386,13 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(220,53,69,.5);
 }
 .btn-light {
-    color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    color: #333;
+    background-color: #fff;
+    border-color: #eb5a79;
 }
 .btn-light:hover {
-    color: #212529;
-    background-color: #e2e6ea;
-    border-color: #dae0e5;
+    color: #fff;
+    background-color: #eb5a79;
 }
 .btn-light.focus,
 .btn-light:focus {

@@ -4,63 +4,71 @@
 
 /* size */
   .fz-14{
-    font-size: 0.875em;
+    font-size: 14px;
+  }
+
+  .fz-15{
+    font-size: 15px;
   }
   
   .fz-16{
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .fz-17{
-    font-size: 1.063em;
+    font-size: 17px;
   }
 
   .fz-18{
-    font-size: 1.125em;
+    font-size: 18px;
+  }
+
+  .fz-19{
+    font-size: 19px;
   }
   
   .fz-20{
-    font-size: 1.250em;
+    font-size: 20px;
   }
   
   .fz-25{
-    font-size: 1.563em;
+    font-size: 25px;
   }
 
   .fz-30{
-    font-size: 1.875em;
-  }
-  
-  .fz-38{
-    font-size: 2.375em;
+    font-size: 30px;
   }
 
   .fz-35{
-    font-size: 2.188em;
+    font-size: 35px;
+  }
+  
+  .fz-38{
+    font-size: 38px;
   }
 
   .fz-40{
-    font-size: 2.5em;
+    font-size: 40px;
   }
 
   .fz-45{
-    font-size: 2.813em;
+    font-size: 45px;
   }
 
   .fz-50{
-    font-size: 3.125em;
+    font-size: 50px;
   }
 
   .fz-55{
-    font-size: 3.438em;
+    font-size: 55px;
   }
 
   .fz-58{
-    font-size: 3.625em;
+    font-size: 58px;
   }
   
   .fz-60{
-    font-size: 3.75em;
+    font-size: 60px;
   }
   
 /* color */
